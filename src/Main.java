@@ -5,9 +5,6 @@ public class Main {
         int b = calc.minus.apply(1,1); // переменная b становится 0
         int c = 0;
         c = calc.devide.apply(a, b);
-
-
-
         calc.println.accept(c);
     }
 }

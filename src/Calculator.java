@@ -14,9 +14,4 @@ public class Calculator {
     UnaryOperator<Integer> abs = x -> x > 0 ? x : x * -1;
     Predicate<Integer> isPositive = x -> x > 0;
     Consumer<Integer> println = System.out::println;
-    //    static interface Supplier<T> {
-//        T get();
-//    }
-//    static Supplier<Calculator> instance = Calculator::new;
 }
-//      System.out.println("деление на 0");
